@@ -1,0 +1,32 @@
+{
+  "name": "library-development-kit",
+  "version": "1.0.0",
+  "description": "NPM library development kit",
+  "main": "./index.js",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "scripts": {
+    "watch": "tsup --watch",
+    "build": "tsup"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:5555"
+  },
+  "keywords": [
+    "library",
+    "development",
+    "kit",
+    "npm"
+  ],
+  "author": "Raheem",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "fs-extra": "^11.3.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
